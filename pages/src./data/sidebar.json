@@ -1,0 +1,139 @@
+[
+    { "title": "Home",
+        "icon":"bi-house-fill",
+        "path":"/"
+    },
+    
+    { "title": "Filters",
+        "icon":"bi-funnel",
+        "childrens":[
+          {
+              "title": "Normalization",
+              "path": "/normalization"},
+          {
+              "title": "Low Pass Filter",
+              "path": "/lowpassfilter"
+              },
+          {
+              "title":"High Pass Filter",
+              "path": "/highpassfilter"
+  
+              },
+            {
+                "title":"Notch Filter",
+                "path":"/notchfilter"
+
+            }
+  
+        ]
+  
+      },
+    {
+        "title": "General",
+        "icon": "bi-gear",
+        "childrens": [
+            {
+                "title": "Home",
+                "icon": "bi-house-fill",
+                "path": "/"
+            },
+            {
+                "title": "About",
+                "icon": "bi-info-circle-fill",
+                "path": "/about"
+            },
+            {
+                "title": "Contact",
+                "icon": "bi-phone-fill",
+                "childrens": [
+                    {
+                        "title": "Facebook",
+                        "icon": "bi-facebook"
+                    },
+                    {
+                        "title": "Twitter",
+                        "icon": "bi-twitter"
+                    },
+                    {
+                        "title": "Instagram",
+                        "icon": "bi-instagram"
+                    }
+                ]
+            }
+          
+        ]
+    },
+    {
+        "title": "Account",
+        "icon": "bi-info-circle-fill",
+        "childrens": [
+            
+            {
+                "title": "Recent Transactions",
+                "path": "/register"
+            },
+            {
+                "title": "Forgot Password",
+                "path": "/forgot-password"
+            },
+            {
+                "title": "Reset Password",
+                "path": "/reset-password"
+            }
+        ]
+    },
+    {
+        "title": "Profile",
+        "icon": "bi-person-fill",
+        "childrens": [
+            {
+                "title": "Profile",
+                "path": "/profile"
+            },
+            {
+                "title": "Settings",
+                "childrens": [
+                    {
+                        "title": "Account",
+                        "path": "/settings/account"
+                    },
+                    {
+                        "title": "Billing",
+                        "childrens": [
+                            {
+                                "title": "Payment",
+                                "path": "/settings/billing/payment"
+                            },
+                            {
+                                "title": "Subscription",
+                                "path": "/settings/billing/subscription"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Notifications",
+                        "path": "/settings/notifications"
+                    }
+                ]
+            },
+            {
+                "title": "Logout",
+                "path": "/logout"
+            }
+        ]
+    },
+    {
+        "title": "Advance",
+        "icon": "bi-view-list",
+        "childrens": [
+            {
+                "title": "Search",
+                "path": "/search"
+            },
+            {
+                "title": "History",
+                "path": "/history"   
+            }
+        ]
+    }
+]
