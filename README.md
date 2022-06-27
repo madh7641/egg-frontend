@@ -1,4 +1,4 @@
-# egg-frontend
+# egg-frontend all contents are in src file
 for intern
 contents:"
 |src
